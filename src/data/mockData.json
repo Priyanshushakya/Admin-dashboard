@@ -1,0 +1,17 @@
+{
+    "sales": {
+        "todayRevenue": 18540,
+        "todayOrders" : 14,
+        "totalItemsSold" : 50
+    },
+    "inventory" :[
+        { "id": "1", "name": "Cotton T-Shirt", "stoke": 120, "reserved": 5, "price": 999, "status": "ACTIVE" },
+        { "id": "2", "name": "Cotton Pant", "stoke": 2, "reserved": 28, "price": 799, "status": "ACTIVE" }
+    ],
+    "payments": [
+    { "id": "pay_123", "amount": 2499, "status": "CAPTURED", "date": "2026-03-20" }
+  ],
+  "shipments": [
+    { "orderId": "ORD-98045289", "customer": "Aman Singh", "status": "  In Transit", "city": "Delhi" }
+  ]
+}
